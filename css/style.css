@@ -1,0 +1,445 @@
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Saira Semi Condensed', 'Open Sans', sans-serif;
+}
+p,a,span,li,label{
+	font-family: 'Saira Semi Condensed', 'Open Sans', sans-serif;
+}
+img{
+	max-width:100%;
+}
+
+header .navbar{
+	padding: 0rem;
+}
+
+nav li{
+	    margin: 0px 10px;
+}
+
+
+.navbar-brand {
+	animation: fadeInAnimation ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+header{
+	background-color: rgba(255, 255, 255, 0);
+	padding-top: 30px ;
+}
+
+
+.hstack {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-self: stretch;
+  }
+
+
+#intro{ 
+    background-color: white;
+}  
+
+#intro img{
+	animation: img_ani ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes img_ani {
+	0% {
+		opacity: 0;
+		transform: translateX(100px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+
+
+#intro .jumbotron{
+	background: url('/Users/kwan/Desktop/Website/images/section01-bg.svg');
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 70vh;
+    margin-bottom: -1px;
+}
+
+#intro .jumbotron .container{
+	position:relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+
+
+#intro .btn{
+	margin-top: 20px;
+}
+
+#intro .btn i{
+	padding-left: 10px;
+}
+
+#intro h1{
+    font-weight: 700;
+}
+
+.btn-outline-primary{
+	font-size: 16px;
+	color: #f05f5c ;
+    padding: 7px 28px;
+    border-width: 1px;
+	border-color: #f05f5c ;
+}
+.btn-outline-primary:hover{
+	opacity:0.8;
+	background-color: #f05f5c!important;
+	border-color: #f05f5c ;
+}
+#second{
+	padding: 80px 0px;
+	background-color: #bcddd8;
+	
+}
+#second h3, #projects h3{
+	margin-bottom: 40px;
+	font-size: 40px;
+	font-weight: 700;
+}
+#second img{
+    max-width: 50%;
+}
+#second h5{
+	margin-top: 10px;
+    font-size: 19px;
+}
+
+p{
+	font-size: 16px;
+    line-height: 26px;
+    color: #707070;
+}
+p.lead{
+	color: black;
+	line-height: 31px;
+}
+
+
+#projects .gcontent{
+	animation: gcontent_ani ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes gcontent_ani {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+
+#projects .nav{
+	background-color: rgb(255, 251, 243);
+	border-bottom-width: 2px;
+	border-color: #f05f5c;
+	border-radius: 0;
+}
+
+#projects{
+	background: rgb(255, 251, 243);
+}
+
+
+#projects{
+	background-image: url('/Users/kwan/Desktop/Website/images/section03-bg.svg');
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-top: -1px;
+	padding: 80px 0px;
+}
+
+
+#projects .upper{
+	position:relative;
+}
+
+
+.image-wrap {
+	max-width: 100%;
+	height: 280px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 0;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+	border-radius: 10px ;
+	transition: 0.2s ease-in-out;
+  }
+
+  .image-wrap:hover {
+	transform: translateY(-10px) ;
+	box-shadow: 0 0 20px 8px rgba(0,0,0,0.1);
+  }
+
+
+  .image-wrap img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: top center;
+	transition: all 3s ease-in-out;
+  }
+  .image-wrap:hover img {
+	object-position: bottom center;
+  }
+  
+#projects .row {
+	margin-top: 30px;
+} 
+
+#projects .innertext{
+	position:absolute;
+	bottom:20px;
+	left:30px;
+}
+#projects .innertext span{
+	background: rgba(255,255,255,0.3);
+    padding: 5px 16px;
+    border-radius: 30px;
+}
+#projects h4{
+	font-size: 19px;
+    margin-top: 10px;
+}
+#projects .lower{
+	    padding: 22px 10px;
+
+}
+#projects .col-md-4 .outer{
+	padding: 0px;
+	margin: 0 5px;
+}
+#projects .lower h3{
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+
+#projects .lower span{
+	color: #707070;
+	font-size: 16px;
+}
+
+#projects .gcontent a{
+	color:black;
+}
+
+#projects .gcontent a:hover{
+	color:#f05f5c;
+	text-decoration: none;
+	
+}
+#projects i{
+	margin-right:5px;
+}
+
+
+footer{
+	padding: 40px 0px;
+	background-color: #e5e5e5;
+	position:relative;
+	vertical-align: middle;
+	
+}
+	
+footer .container{
+	padding:0px 30px;
+}
+
+footer .img{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+footer h4{
+	font-size: 20px;
+  
+
+}
+footer p{
+	margin-left: 30px;
+}
+
+
+footer p,h4{
+	display: inline;
+}
+footer ul{
+	list-style: none;
+    padding: 0;
+}
+footer ul a{
+	color: #707070;
+}
+footer a{
+	color:#707070;
+}
+footer a:hover{
+	color:#f05f5c;
+}
+footer ul a:hover{
+	color: #707070;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+
+footer i{
+	margin-right: 10px;
+}
+
+#projects .thehead h3{
+    margin-bottom: 7px;
+    font-size: 32px;
+
+}
+#projects .thehead p{
+    margin-bottom: 80px;
+
+
+}
+#projects .thehead .col-md-4 p{
+	margin-bottom: 0px;
+    margin-top: 25px;
+}
+#projects .thehead h3.notag{
+	margin-bottom: 88px;
+}
+.card-header .btn,.card-header .btn:hover{
+	background:none!important;
+	color:black;
+}
+#intro .jumbotron.jumbotron2{
+	height: 400px;
+}
+#singlecontent{
+	padding: 80px 0px;
+}
+.thetag{
+	color: #f05f5c;
+    font-size: 16px;
+    border: 1px solid #f05f5c;
+    padding: 10px 18px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 7px;
+}
+#singlecontent h4{
+	margin-top:50px;
+}
+.apply{
+	background-color: #f9f9f9;
+	padding: 44px;
+}
+.apply .btn{
+	font-size: 16px;
+    margin-top: 31px;
+    width: 100%;
+}
+.applybelow{
+	margin-top:80px;
+	text-align: center;
+}
+.btn2{
+    color: #707070;
+    border: 1px solid #707070;
+    padding: 10px 24px;
+    border-radius: 20px;
+    margin-top: 3px;
+    display: inline-block;
+}
+.btn2:hover{
+	text-decoration: none;
+	opacity: 0.8;
+	color: #707070;
+}
+#intro .contact{
+	height: auto;
+    padding: 0px;
+}
+#intro .contact .col-md-4{
+	height: 400px;
+    background: rgba(0,0,0,0.5);
+    padding: 66px;
+    text-align: center;
+}
+#intro .contact .col-md-4 h1{
+	color:white;
+}
+#intro .contact .col-md-4 p{
+	color:white;
+}
+#intro .contact .col-md-4 hr {
+    color: white;
+    border-top: 2px solid #f05f5c;
+    width: 87px;
+    margin-top: 24px;
+    margin-bottom: 26px;
+}
+.cinner{
+	position:relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+#contactcontent{
+	padding: 80px 0px;
+}
+#contactcontent h3{
+	margin-bottom: 40px;
+}
+#contactcontent a{
+	color:#f05f5c;
+}
+#contactcontent a.btn{
+	color:white;
+}
+#contactcontent textarea{
+	height:200px;
+	margin-bottom: 10px;
+}
+#contactcontent i{
+	display:inline-block;
+	margin-right: 4px;
+}
+@media only screen and (max-width: 768px) {
+	#second h5 {
+	    margin-bottom: 50px;
+	}
+	#projects .col-md-4{
+		margin-bottom: 60px;
+	}
+	footer h4 {
+	    font-size: 17px;
+	    margin-top: 30px;
+	    margin-bottom: 18px;
+	}
+}
