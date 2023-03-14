@@ -3,12 +3,16 @@
     margin-bottom: 40px;
 }
 
+.vr{
+    display: inline-block;   
+    color: rgb(0, 0, 0, 0.2);
+    
+}
+
 .tabbar ul{
     list-style: none;
     margin: 20px;
     outline: 1px;
-    border-color: black;
-    background-color: rgb(255, 255, 255, 0);
     border-radius: 15px;
     
 }
@@ -20,7 +24,7 @@
 
 
 .tabbar li a{
-    color: rgb(0, 0, 0, 0.5);
+    color: #969696;
     font-size: 16px;
     font-weight: 700;
     padding: 10px 20px;
@@ -60,4 +64,33 @@
 }
 .active{
     display: block;
+}
+
+@media only screen and (max-width: 1200px) {
+	
+    a{
+    font-size: 14px;
+    }
+
+	.tabbar li a{
+        color: rgb(0, 0, 0, 0.5);
+        font-size: 14px;
+        font-weight: 700;
+        padding: 10px 10px;
+        border-radius: 30px;
+        margin: 0px;
+        text-decoration: none;
+    }
+
+
+    .tabbar li a:hover{
+        font-size: 14px;
+        font-weight: 700;
+        color: #ff7f7f;
+        padding: 10px 10px;
+        border-radius: 30px;
+        background: #ffffff;
+    
+    }
+
 }
