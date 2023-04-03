@@ -1,4 +1,4 @@
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,h7{
 	font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 p,a,span,li,label{
@@ -28,6 +28,11 @@ h6{
 	font-size: 17px;
 	font-weight:400;
 	color: #707070;
+}
+
+h7{
+	font-size: 40px;
+	font-weight:700;	
 }
 
 p{
@@ -202,7 +207,7 @@ header{
 	background-size: 100%;
     background-repeat: no-repeat;
     background-position: left top;
-    margin-top: -5px;
+    margin-top: -2px;
 	padding: 100px 0px 80px 0px;
 }
 
@@ -275,7 +280,7 @@ header{
 }
 
 #works .gcontent a{
-	color:black;
+	color:#000000;
 }
 
 #works .gcontent a:hover{
@@ -313,12 +318,9 @@ footer h4{
 }
 footer p{
 	margin-left: 30px;
-}
-
-
-footer p,h4{
 	display: inline;
 }
+
 footer ul{
 	list-style: none;
     padding: 0;
@@ -343,6 +345,83 @@ footer i{
 	margin-right: 10px;
 }
 
+#about-top{
+	background: url('../images/about/top-bg.svg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: auto;
+	margin-bottom: 0px;	
+  }
+
+.about-intro{
+	text-align: center;
+	padding: 60px 0 140px 0;
+}
+.about-intro img{
+	text-align: center;
+	margin: 20px;
+}
+
+#about-skills{
+	padding: 80px 0px;
+	background-color: #bcddd8;
+	
+}
+
+#about-skills h3{
+	margin-bottom: 40px;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#about-skills img{
+    max-width: 50%;
+}
+
+#about-skills h5{
+	margin-top: 10px;
+    font-size: 19px;
+}
+
+
+#about-software h3{
+	margin-top: 60px;
+	margin-bottom: 40px;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#about-software img{
+	text-align: center;
+    max-width: 80%;
+	
+}
+
+#about-software h5{
+	margin-top: 10px;
+    font-size: 19px;
+}
+
+.mobile-version{
+	display: none;
+}
+
+.desktop-version{
+	display: block;
+	text-align: center;
+}
+
+#about-software{
+	background: #fffbf3;
+	background-image: url('../images/about/skills-bg.svg');
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-top: -1px;
+	padding: 100px 0px 100px 0px;
+}
+
 
 .inner-page-top{
     background: rgb(255, 251, 243);
@@ -365,10 +444,10 @@ footer i{
 }
 
 
-
 .inner-intro hr{
 width:40px;
 }
+
 #gallery{
 	margin-bottom: 80px;
 }
@@ -427,9 +506,17 @@ width:40px;
 	}
 }
 
-#h3{
+h3{
 	font-size: 18px;
 }
+
+p{
+	font-size: 14px;
+}
+
+#works .row {
+	margin-top: 0px;
+} 
 
 @media only screen and (max-width: 768px) {
 
@@ -448,19 +535,44 @@ width:40px;
 	}
 
 	#works .col-md-4{
-		margin-bottom: 60px;
+		margin-bottom: 40px;
 	}
 
 	#works .col-md-4 .image-wrap{
 		height: 100%;
 	}
-
-
-	footer h4 {
-	    font-size: 17px;
-	    margin-top: 30px;
-	    margin-bottom: 18px;
+	
+	footer img{
+		width: 60px;
+		margin-bottom: 30px;
 	}
+	
+	footer .row{
+		display: block;
+		text-align: left;
+	}
+
+	footer p{
+		margin-right: 30px;
+		margin-left: 0px;
+		
+	}
+
+	.mobile-version{
+		display: block;
+		text-align: center;
+	}
+
+	.desktop-version{
+		display: none;
+	}
+
+	#about-skills img{
+		max-width: 40%;
+	}
+
+
+
 }
 
 

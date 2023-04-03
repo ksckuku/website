@@ -11,9 +11,10 @@
 
 .tabbar ul{
     list-style: none;
-    margin: 20px;
+    margin: 20px 0px;
     outline: 1px;
     border-radius: 15px;
+    padding:0;
     
 }
 .tabbar li{
@@ -24,9 +25,9 @@
 
 
 .tabbar li a{
-    color: #969696;
+    color: #707070;
     font-size: 16px;
-    font-weight: 700;
+   
     padding: 10px 20px;
     border-radius: 30px;
     margin: 0px;
@@ -54,19 +55,29 @@
     color:#ff7f7f;
 }
 
-
-
   
-
 .gcontent{
-    display: none;
-    
+    display: none;   
 }
+
 .active{
     display: block;
 }
 
+
 @media only screen and (max-width: 1200px) {
+
+    .tabbar li{
+        display: inline-block;   
+        margin:5px;
+    
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
 	
     a{
     font-size: 14px;
@@ -94,3 +105,6 @@
     }
 
 }
+
+
+
