@@ -98,7 +98,7 @@ html[xmlns] .flexslider .slides {
 
 
 .flexslider .slides img{
-  height: 560px;
+  height: 600px;
   -moz-user-select: none;
   object-fit: scale-down;
   position: top center;
@@ -132,7 +132,7 @@ text-align: center;
 
 .flex-caption{
   text-align: center;
-  margin: 30px;
+  margin-bottom: 30px;
   font-size: 16px;
   color:#000;
 }
@@ -186,7 +186,7 @@ text-align: center;
 }
 .flex-direction-nav a:before {
   font-family: "flexslider-icon";
-  font-size: 40px;
+  font-size: 44px;
   display: inline-block;
   content: '\f001';
   color: rgba(0, 0, 0, 0.8);

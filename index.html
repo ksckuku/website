@@ -5,7 +5,7 @@
 
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Saira+Semi+Condensed|Lexend|Open+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Saira+Semi+Condensed|Lexend|Roboto|Work+Sans|Open+Sans&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -14,7 +14,9 @@
 		<script src="https://kit.fontawesome.com/8dd8f3ce18.js" crossorigin="anonymous"></script>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://kit.fontawesome.com/8dd8f3ce18.css" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/flexslider.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -28,31 +30,32 @@
 	</head>
 	
 	<body>
-
+    
 		<header>
 	        <div class='container'>
-				<nav class="navbar navbar-expand-lg navbar-light">
+
+				<nav class="navbar navbar-expand navbar-light">
 				  <a class="navbar-brand" href="index.html"><img src='images/ku-logo.svg' width='100'></a>
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
-				  </button>
-				
-				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				    <ul class="navbar-nav ml-auto">
 				  
-				      <li class="nav-item">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html#works">Works</a>
+						  </li>	
+						  <li class="nav-item">
 				        <a class="nav-link" href="about.html">About</a>
 				      </li>	
 
-				    </ul>
-				  
-				  </div>
+				    </ul>				 
 				</nav>
+
 	        </div>
         </header>
 
+  
 
-		<section id='intro'>
+		
+			
+			<section id='intro'>
 			
 			<div class="jumbotron">
 			  <div class='container'>
@@ -80,7 +83,13 @@
 			</div>
 			
 		</section>
-        <section id='second'>
+	    
+
+
+        <section id='skills'>
+
+			<div data-aos="fade-up">
+
 	        <div class="container">
 		        <div class='row'>
 					<div class='col-md-12 text-center'>
@@ -105,18 +114,21 @@
 					</div>
 			    <div>
 	        </div>
+
+			</div>
 	        
         </section> 
-
 		
-        <section id='projects'>
-	        
+
+	
+
+        <section id='works'>
+			<div data-aos="fade-up">
+
 	        <div class="container">
 		        <div class='row'>
 					  <div class='col-md-12 text-center'>
-					  	<h3>MY WORKS</h3>
-					 
-					  
+					  	<h3>MY WORKS</h3>					  
 					  
 						  <div class="tabbar">
 							<ul>
@@ -137,7 +149,7 @@
 							<div class='row'>
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='project01.html'>
+										<a href='ui-01.html'>
 											<div class='upper'>
 											  <div class="image-wrap">
 											  <img src='images/ui/bumpin-1.jpg'>
@@ -155,7 +167,7 @@
 
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='single.html'>
+										<a href='ui-02.html'>
 											<div class='upper'>
 											  <div class="image-wrap">
 											  <img src='images/ui/HKFYG.jpg'>
@@ -173,7 +185,7 @@
   
 								<div class='col-md-4 text-left'>
 								  <div class='outer'>
-									  <a href='single.html'>
+									  <a href='ui-03.html'>
 										  <div class='upper'>
 											<div class="image-wrap">
 											<img src='images/ui/ypark-0.jpg'>
@@ -196,7 +208,7 @@
 
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='single.html'>
+										<a href='ui-04.html'>
 											<div class='upper'>
 											  <div class="image-wrap">
 											  <img src='images/ui/cnf-0.jpg'>
@@ -204,9 +216,8 @@
 											  
 											</div>
 											<div class='lower'>
-												<h3>Responsive Website</h3>
+												<h3>NGO Website</h3>
 												<span>The CWM/Nethersole Fund</span>
-							  
 											</div>
 										</a>
 									</div>
@@ -215,7 +226,7 @@
 								
 								<div class='col-md-4 text-left'>
 								  <div class='outer'>
-									  <a href='single.html'>
+									  <a href='ui-05.html'>
 										  <div class='upper'>
 											<div class="image-wrap">
 											<img src='images/ui/siksikyuen-0.jpg'>
@@ -233,7 +244,7 @@
 
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='single.html'>
+										<a href='ui-06.html'>
 											<div class='upper'>
 											  <div class="image-wrap">
 											  <img src='images/ui/cheerbell-0.jpg'>
@@ -241,7 +252,7 @@
 											  
 											</div>
 											<div class='lower'>
-												<h3>Art Gallery Online Shop</h3>
+												<h3>Online Art Gallery</h3>
 												<span>Cheer Bell</span>
 							  
 											</div>
@@ -259,25 +270,25 @@
 
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='single.html'>
+										<a href='ui-07.html'>
 											<div class='upper'>
 											  <div class="image-wrap">
-											  <img src='images/ui/hkumma.jpg'>
+											  <img src='images/ui/bi-0.jpg'>
 											  </div>
 											  
 											</div>
 											<div class='lower'>
-												<h3>Member Mobile App</h3>
-												<span>HKUMMA</s>
+												<h3>Online Beauty Store</h3>
+												<span>Beautique Innovation</span>
 							  
 											</div>
 										</a>
 									</div>
-								  </div>
+								</div>
 								
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='single.html'>
+										<a href='ui-08.html'>
 											<div class='upper'>
 											  <div class="image-wrap">
 											  <img src='images/ui/flucur-0.jpg'>
@@ -285,7 +296,7 @@
 											  
 											</div>
 											<div class='lower'>
-												<h3>Flucur Website</h3>
+												<h3>Product Website</h3>
 												<span>Flucur</span>						  
 											</div>
 										</a>
@@ -295,21 +306,21 @@
 
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='single.html'>
+										<a href='ui-09.html'>
 											<div class='upper'>
 											  <div class="image-wrap">
-											  <img src='images/ui/basement-0.jpg'>
+											  <img src='images/ui/hkumma.jpg'>
 											  </div>
 											  
 											</div>
 											<div class='lower'>
-												<h3>Online Jewelry Auctions</h3>
-												<span>The Basement</span>
+												<h3>Member Mobile App</h3>
+												<span>HKU Medical Alumni Association</s>
 							  
 											</div>
 										</a>
 									</div>
-								</div>
+								  </div>
 	
 							</div>
 
@@ -325,15 +336,47 @@
 
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='single.html'>
+										<a href='graphic-01.html'>
 											<div class='upper'>
 											  <div class="image-wrap">
-											  <img src='images/ui/hkbu-eCourse-0.jpg'>
+											  <img src='images/graphic/graphic-01.jpg'>
 											  </div>										
 											</div>									  
 											<div class='lower'>
-												<h3>eCourse - Online Learning Platform</h3>
-												<span>HKBU</span>
+												<h3>Social Media Marketing Visuals</h3>
+												<span>Winfun</span>
+										   </div>
+										</a>
+									</div>
+							    </div>
+
+								<div class='col-md-4 text-left'>
+									<div class='outer'>
+										<a href='graphic-02.html'>
+											<div class='upper'>
+											  <div class="image-wrap">
+											  <img src='images/graphic/graphic-02.jpg'>
+											  </div>										
+											</div>									  
+											<div class='lower'>
+												<h3>Magazine Covers</h3>
+												<span>Pre-mo</span>
+										   </div>
+										</a>
+									</div>
+							    </div>
+
+								<div class='col-md-4 text-left'>
+									<div class='outer'>
+										<a href='graphic-03.html'>
+											<div class='upper'>
+											  <div class="image-wrap">
+											  <img src='images/graphic/graphic-03.jpg'>
+											  </div>										
+											</div>									  
+											<div class='lower'>
+												<h3>Editorial Designs</h3>
+												<span>Pre-mo</span>
 										   </div>
 										</a>
 									</div>
@@ -341,17 +384,57 @@
 	  
 
 							</div>
+
+
+							<div class='row'>
+
+								<div class='col-md-4 text-left'>
+									<div class='outer'>
+										<a href='graphic-04.html'>
+											<div class='upper'>
+											  <div class="image-wrap">
+											  <img src='images/graphic/graphic-04.jpg'>
+											  </div>										
+											</div>									  
+											<div class='lower'>
+												<h3>Ads & Advertorial Designs</h3>
+												<span>Pre-mo</span>
+										   </div>
+										</a>
+									</div>
+							    </div>
+
+								<div class='col-md-4 text-left'>
+									<div class='outer'>
+										<a href='graphic-05.html'>
+											<div class='upper'>
+											  <div class="image-wrap">
+											  <img src='images/graphic/graphic-05.jpg'>
+											  </div>										
+											</div>									  
+											<div class='lower'>
+												<h3>Editorial Designs</h3>
+												<span>Baby-mo - Parenting Magazine</span>
+										   </div>
+										</a>
+									</div>
+							    </div>
+
+								
+
+							</div>
+							
 											
 						</div>
 
 
 						<div class='gcontent Logo tablink3'>
 							
-							<div class='row'>
-
+							<div class='row'>  
+								
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='single.html'>
+										<a class="fancy-img" href="images/logo/alpha-one.jpg" data-fancybox data-caption="">
 											<div class='upper'>
 											  <div class="image-wrap">
 											  <img src='images/logo/alpha-one.jpg'>
@@ -359,7 +442,23 @@
 											</div>									  
 											<div class='lower'>
 												<h3>Alpha One</h3>
-												<span>--</span>
+												<span>Aviation Service Provider</span>
+										   </div>
+										</a>
+									</div>
+							    </div>	 
+								
+								<div class='col-md-4 text-left'>
+									<div class='outer'>
+										<a class="fancy-img" href="images/logo/hksyu-accounting.jpg" data-fancybox data-caption="">
+											<div class='upper'>
+											  <div class="image-wrap">
+											  <img src='images/logo/hksyu-accounting.jpg'>
+											  </div>										
+											</div>									  
+											<div class='lower'>
+												<h3>Department of Accounting, HKSYU</h3>
+												<span>University</span>
 										   </div>
 										</a>
 									</div>
@@ -367,7 +466,7 @@
 
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='single.html'>
+										<a class="fancy-img" href="images/logo/cherry-mount.jpg" data-fancybox data-caption="">
 											<div class='upper'>
 											  <div class="image-wrap">
 											  <img src='images/logo/cherry-mount.jpg'>
@@ -375,27 +474,13 @@
 											</div>									  
 											<div class='lower'>
 												<h3>Cherry Mount</h3>
-												<span>Human Resources</span>
+												<span>Human Resources Consultancy</span>
 										   </div>
 										</a>
 									</div>
 							    </div>	  
 
-								<div class='col-md-4 text-left'>
-									<div class='outer'>
-										<a href='single.html'>
-											<div class='upper'>
-											  <div class="image-wrap">
-											  <img src='images/logo/coa.jpg'>
-											  </div>										
-											</div>									  
-											<div class='lower'>
-												<h3>COA</h3>
-												<span>Service</span>
-										   </div>
-										</a>
-									</div>
-							    </div>	  
+								
 
 							</div>
 
@@ -403,7 +488,7 @@
 
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='single.html'>
+										<a class="fancy-img" href="images/logo/codeking.jpg" data-fancybox data-caption="">
 											<div class='upper'>
 											  <div class="image-wrap">
 											  <img src='images/logo/codeking.jpg'>
@@ -411,23 +496,24 @@
 											</div>									  
 											<div class='lower'>
 												<h3>CODEKING</h3>
-												<span>Prnting Company</span>
+												<span>Label Prnting Company</span>
 										   </div>
 										</a>
 									</div>
-							    </div>	  
+							    </div>	
 
+								
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='single.html'>
+										<a class="fancy-img" href="images/logo/coa.jpg" data-fancybox data-caption="">
 											<div class='upper'>
 											  <div class="image-wrap">
-											  <img src='images/logo/hksyu-accounting.jpg'>
+											  <img src='images/logo/coa.jpg'>
 											  </div>										
 											</div>									  
 											<div class='lower'>
-												<h3>HKSYU - Accounting Department</h3>
-												<span>University Department</span>
+												<h3>Jockey Club Empowerment-based Transitional Care Project</h3>
+												<span>Services for the Elderly</span>
 										   </div>
 										</a>
 									</div>
@@ -435,7 +521,7 @@
 
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='single.html'>
+										<a class="fancy-img" href="images/logo/wenia-star.jpg" data-fancybox data-caption="">
 											<div class='upper'>
 											  <div class="image-wrap">
 											  <img src='images/logo/wenia-star.jpg'>
@@ -443,7 +529,7 @@
 											</div>									  
 											<div class='lower'>
 												<h3>Wenia Star</h3>
-												<span>--</span>
+												<span>Vanuatu Immigration Agency</span>
 										   </div>
 										</a>
 									</div>
@@ -460,15 +546,15 @@
 
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
-										<a href='other01.html'>
+										<a href='others-01.html'>
 											<div class='upper'>
 											  <div class="image-wrap">
-											  <img src='images/ui/hkbu-eCourse-0.jpg'>
+											  <img src='images/others/other-01.jpg'>
 											  </div>										
 											</div>									  
 											<div class='lower'>
-												<h3>eCourse - Online Learning Platform</h3>
-												<span>HKBU</span>
+												<h3>Product Videos</h3>
+												<span>Winfun</span>
 										   </div>
 										</a>
 									</div>
@@ -482,10 +568,13 @@
 				    </div>
 			    </div>	  			    
 	        </div>
-        
+		</div>
         </section>
 
-		<footer>
+		
+	
+
+<footer>
 	        
 			<div class="container">
 				<div class='row align-items-center'>
@@ -508,11 +597,11 @@
 		
 		</footer>
 		
-       
+	
+
+</div>
     
-		
-		<script src='js/script.js'></script>
-		
+
 
 
         <script>
@@ -591,16 +680,23 @@
                     $('.tab_btn2').removeClass('selected');
 					$('.tab_btn3').removeClass('selected');
                     
-                });
-
-			});
+                });		
+			
+							
+            });
 
 	
 	        Fancybox.bind("[data-fancybox]", {
 	        });
-              
-        
+
         </script>
+
+		<script>
+			AOS.init({
+            duration: 1200
+            });
+		  </script>
+
 
 
 	</body>
