@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 561.8 300" style="enable-background:new 0 0 561.8 300;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;}
-</style>
+	 viewBox="0 0 561.9 300" style="enable-background:new 0 0 561.9 300;" xml:space="preserve">
 <g>
 	<g>
-		<polygon points="261.81,0 230.26,0 123.03,81.5 154.58,81.5 		"/>
-		<polygon points="78.18,115.59 19.09,160.51 19.09,0 0,0 0,299.99 19.09,299.99 19.09,184.48 94.52,127.15 237.07,300 261.8,300 
-			261.81,299.99 109.73,115.59 		"/>
+		<rect x="540.1" y="0" width="21.8" height="91.2"/>
+		<polygon points="540.1,126.7 540.1,278.2 321.9,278.2 321.9,126.7 300.1,126.7 300.1,300 561.9,300 561.9,126.7 		"/>
+		<rect x="300.1" y="0" width="21.8" height="91.2"/>
 	</g>
 	<g>
-		<rect x="319.08" y="115.59" class="st0" width="223.63" height="165.32"/>
-		<rect x="299.99" width="19.09" height="81.5"/>
-		<rect x="542.71" width="19.09" height="81.5"/>
-		<polygon points="542.71,280.91 319.08,280.91 319.08,115.59 299.99,115.59 299.99,280.91 299.99,299.99 299.99,300 561.8,300 
-			561.8,299.99 561.8,280.91 561.8,115.59 542.71,115.59 		"/>
+		<polygon points="261.9,0 229.9,0 132.1,91.2 164.1,91.2 		"/>
+		<polygon points="94.1,126.7 21.9,194.1 22,0 0.2,0 0,300 21.8,300 21.9,223.9 110.1,141.6 234,299.8 261.7,299.8 126.1,126.7 		
+			"/>
 	</g>
 </g>
 </svg>
