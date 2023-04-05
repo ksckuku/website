@@ -7,7 +7,8 @@ p,a,span,li,label{
 
 
 h1{
-	font-size: 26px;
+	font-size: 38px;
+	font-weight: 500;
 }
 h2{
 	font-size: 30px;
@@ -15,6 +16,7 @@ h2{
 }
 h3{
 	font-size: 21px;
+	font-weight: 500;
 }
 
 h4{
@@ -37,14 +39,16 @@ h7{
 
 p{
 	font-size: 16px;
-    line-height: 26px;
+    line-height: 1.5;
 	font-weight: 300px;
     color: #707070;
 }
 
-p.lead{
+.lead{
+	font-size: 32px;
+	font-weight: 500px;
 	color: black;
-	line-height: 31px;
+	line-height: 36px;
 }
 
 
@@ -118,7 +122,7 @@ header{
 	background-size: 100%;
     background-repeat: no-repeat;
     background-position: left bottom;
-    height: 80vh;
+    height: 600px;
     margin-bottom: -1px;
 }
 
@@ -139,7 +143,7 @@ header{
 	padding-left: 10px;
 }
 
-#intro h1{
+#intro .lead{
     font-weight: 700;
 	size: 26px;
 }
@@ -147,7 +151,7 @@ header{
 .btn-outline-primary{
 	font-size: 16px;
 	color: #f05f5c ;
-    padding: 7px 28px;
+    padding: 7px 20px;
     border-width: 1px;
 	border-color: #f05f5c ;
 }
@@ -157,14 +161,13 @@ header{
 	border-color: #f05f5c ;
 }
 #skills{
-	padding: 80px 0px;
+	padding: 60px 0 80px 0;
 	background-color: #bcddd8;
 	
 }
-#skills h3, #works h3{
+#skills h1, #works h1{
 	margin-bottom: 40px;
-	font-size: 40px;
-	font-weight: 700;
+
 }
 #skills img{
     max-width: 50%;
@@ -355,7 +358,7 @@ footer i{
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	height: auto;
-	margin-bottom: 0px;	
+	margin-bottom: -1px;	
   }
 
 .about-intro{
@@ -373,10 +376,9 @@ footer i{
 	
 }
 
-#about-skills h3{
+#about-skills h1{
 	margin-bottom: 40px;
-	font-size: 40px;
-	font-weight: 700;
+	
 }
 
 #about-skills img{
@@ -389,11 +391,9 @@ footer i{
 }
 
 
-#about-software h3{
+#about-software h1{
 	margin-top: 60px;
 	margin-bottom: 40px;
-	font-size: 40px;
-	font-weight: 700;
 }
 
 #about-software img{
@@ -526,11 +526,22 @@ width:40px;
 
 @media only screen and (max-width: 768px) {
 
+	h1{
+		font-size: 34px;
+	}
+	
 	.navbar-brand img{
 		width: 80px;
 		display: inline-block;
 		
 	}
+
+	.btn-outline-primary{
+		font-size: 14px;
+		color: #f05f5c ;
+		padding: 7px 15px;
+		border-width: 1px;
+		border-color: #f05f5c ;
 
 	#skills h5 {
 	    margin-bottom: 50px;
@@ -579,6 +590,11 @@ width:40px;
 
 	#works{
 		padding: 100px 0px 20px 0px;
+	}
+
+	#about-software h3{
+		margin-top: 40px;
+		margin-bottom: 40px;
 	}
 
 	header .navbar{
