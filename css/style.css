@@ -196,11 +196,7 @@ header{
 }
 
 
-#works .nav{
-	background-color: rgb(255, 251, 243);
-	border-color: #f05f5c;
-	border-radius: 0;
-}
+
 
 
 #works{
@@ -281,9 +277,6 @@ header{
 	font-size: 16px;
 }
 
-.tabbar li a{
-    color: #707070;
-}
 
 #works .gcontent a{
 	color:#000000;
@@ -553,11 +546,11 @@ width:40px;
 	}
 
 	#skills img{
-		max-width: 40%;
+		max-width: 50%;
 	}
 
 	#works .col-md-4{
-		margin-bottom: 40px;
+		margin-bottom: 20px;
 	}
 
 	#works .col-md-4 .image-wrap{
@@ -574,7 +567,7 @@ width:40px;
 	}
 
 	#about-skills img{
-		max-width: 40%;
+		max-width: 50%;
 	}
 
 	#works{

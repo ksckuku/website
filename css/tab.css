@@ -25,9 +25,10 @@
 
 
 .tabbar li a{
-    color: #707070;
+    color: #a6a6a6;
+    background: #ffffff;
     font-size: 16px;
-   
+    font-weight: 400;
     padding: 10px 20px;
     border-radius: 30px;
     margin: 0px;
@@ -49,6 +50,7 @@
 .tabbar li a.selected{
     background: #ffffff;
     color: #ff7f7f;
+    font-weight: 700;
 }
 
 .tabbar li a .selected{
@@ -69,7 +71,7 @@
 
     .tabbar li{
         display: inline-block;   
-        margin:5px;
+        margin:15px 5px;
     
     }
 
@@ -83,24 +85,27 @@
     font-size: 14px;
     }
 
+    .tabbar {
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+
 	.tabbar li a{
-        color: rgb(0, 0, 0, 0.5);
         font-size: 14px;
         font-weight: 700;
-        padding: 10px 10px;
-        border-radius: 30px;
+        padding: 10px 15px;
+        border-radius: 25px;
         margin: 0px;
-        text-decoration: none;
+
     }
 
 
     .tabbar li a:hover{
         font-size: 14px;
         font-weight: 700;
-        color: #ff7f7f;
-        padding: 10px 10px;
-        border-radius: 30px;
-        background: #ffffff;
+        padding: 10px 15px;
+        border-radius: 25px;
+     
     
     }
 
