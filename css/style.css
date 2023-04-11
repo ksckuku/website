@@ -435,14 +435,14 @@ footer i{
 }
 
 .contact-info p{
-	font-size: 21px;
+	font-size: 19px;
 	margin: 30px;
 	display: inline;
 }
 
 .contact-info a{
 	color:#707070;
-	font-size: 21px;
+	font-size: 19px;
 }
 .contact-info a:hover{
 	color:#f05f5c;
@@ -451,7 +451,7 @@ footer i{
 
 .contact-info i{
 	color:#f05f5c;
-	font-size: 21px;
+	font-size: 19px;
 	margin-right: 10px;
 }
 
