@@ -8,7 +8,7 @@ p,a,span,li,label{
 
 h1{
 	font-size: 38px;
-	font-weight: 500;
+	font-weight: 600;
 }
 h2{
 	font-size: 30px;
@@ -24,7 +24,7 @@ h4{
 	font-weight:400;
 }
 h5{
-	font-size: 19px;
+	font-size: 21px;
 }
 h6{
 	font-size: 17px;
@@ -37,6 +37,11 @@ h7{
 	font-weight:700;	
 }
 
+h8{
+	font-size: 30px;
+	font-weight:500;	
+}
+
 p{
 	font-size: 16px;
     line-height: 1.5;
@@ -44,13 +49,29 @@ p{
     color: #707070;
 }
 
-.lead{
+#intro .lead{
 	font-size: 32px;
-	font-weight: 500px;
+	font-weight: 700px;
 	color: black;
-	line-height: 36px;
+	line-height: 1.2;
+	margin-bottom:10px;
 }
 
+#intro .lead2{
+	font-size: 19px;
+	font-weight: 400px;
+	color: #707070;
+	line-height: 1.5;
+	margin-top: 0px;
+}
+
+.intro-p{
+	margin-top: 20px;
+}
+
+.about-intro p{
+	font-size: 19px;
+}
 
 img{
 	max-width:100%;
@@ -61,7 +82,8 @@ header .navbar{
 }
 
 nav li{
-	    margin: 0px 10px;
+	    margin: 0 0 0 10px;
+		font-size: 19px;
 }
 
 
@@ -92,6 +114,7 @@ header{
 	flex-direction: row;
 	align-items: center;
 	align-self: stretch;
+	width: 100%;
   }
 
 
@@ -142,10 +165,8 @@ header{
 	padding-left: 10px;
 }
 
-#intro .lead{
-    font-weight: 700;
-	size: 26px;
-}
+
+
 
 .btn-outline-primary{
 	font-size: 16px;
@@ -173,7 +194,6 @@ header{
 }
 #skills h5{
 	margin-top: 10px;
-    font-size: 19px;
 }
 
 
@@ -320,13 +340,6 @@ footer p{
 	display: inline;
 }
 
-footer ul{
-	list-style: none;
-    padding: 0;
-}
-footer ul a{
-	color: #707070;
-}
 footer a{
 	color:#707070;
 }
@@ -379,7 +392,6 @@ footer i{
 
 #about-skills h5{
 	margin-top: 10px;
-    font-size: 19px;
 }
 
 
@@ -417,6 +429,38 @@ footer i{
     margin-top: -1px;
 	padding: 100px 0px 100px 0px;
 }
+
+#contact{
+	background-color: #e5e5e5;
+	padding:80px 0px;
+	text-align: center;
+}
+
+.contact-info{
+	margin-top: 40px;
+}
+
+.contact-info p{
+	font-size: 21px;
+	margin: 30px;
+	display: inline;
+}
+
+.contact-info a{
+	color:#707070;
+	font-size: 21px;
+}
+.contact-info a:hover{
+	color:#f05f5c;
+}
+
+
+.contact-info i{
+	color:#f05f5c;
+	font-size: 21px;
+	margin-right: 10px;
+}
+
 
 
 .inner-page-top{
@@ -506,12 +550,13 @@ width:40px;
 	  }
 	
 	  p{
-		font-size: 14px;
+		font-size: 16px;
 	  }
 	
-	  #works .row {
+	#works .row {
 		margin-top: 0px;
-	  } 
+	} 
+
 
 }
 
@@ -526,6 +571,39 @@ width:40px;
 		width: 80px;
 		display: inline-block;
 		
+	}
+
+	.nav li{
+		font-size: 17px;
+}
+
+	#intro {
+		margin-top: -40px;
+	}
+
+	#intro .jumbotron{
+		height: 700px;
+	}
+
+	#intro .hstack{
+		display: block;
+	}
+
+	#intro img{
+		margin-bottom: 20px;
+		padding: 0 30px;
+	}
+
+	#intro .lead{
+		font-size: 28px;
+		color: black;
+		line-height: 1.2;
+	}
+	
+	#intro .lead2{
+		font-size: 16px;
+		line-height: 1.5;
+		margin-top:0px;
 	}
 
 	#intro .btn{
@@ -575,7 +653,7 @@ width:40px;
 	}
 
 	#about-software h3{
-		margin-top: 40px;
+		margin-top: 20px;
 		margin-bottom: 40px;
 	}
 

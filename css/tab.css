@@ -82,7 +82,7 @@
 @media only screen and (max-width: 768px) {
 	
     a{
-    font-size: 14px;
+    font-size: 16px;
     }
 
     .tabbar {
@@ -91,7 +91,7 @@
     }
 
 	.tabbar li a{
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 700;
         padding: 10px 15px;
         border-radius: 25px;
