@@ -101,13 +101,10 @@ nav li{
 	}
 }
 
-
-
 header{
 	background-color: rgba(255, 255, 255, 0);
 	padding-top: 40px ;
 }
-
 
 .hstack {
 	display: flex;
@@ -214,9 +211,6 @@ header{
 		transform: translateX(0px);
 	}
 }
-
-
-
 
 
 #works{
@@ -406,11 +400,6 @@ footer i{
 	
 }
 
-#about-software h5{
-	margin-top: 10px;
-    font-size: 19px;
-}
-
 .mobile-version{
 	display: none;
 }
@@ -427,12 +416,12 @@ footer i{
     background-repeat: no-repeat;
     background-position: left top;
     margin-top: -1px;
-	padding: 100px 0px 100px 0px;
+	padding: 100px 0px 80px 0px;
 }
 
 #contact{
 	background-color: #e5e5e5;
-	padding:120px 0 80px 0;
+	padding:140px 0 80px 0;
 	text-align: center;
 	background-image: url('../images/about/contact-bg.svg');
 	background-size: 100%;
