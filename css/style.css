@@ -49,15 +49,15 @@ p{
     color: #707070;
 }
 
-#intro .lead{
-	font-size: 32px;
+#intro h1{
+	font-size: 38px;
 	font-weight: 700px;
 	color: black;
 	line-height: 1.2;
 	margin-bottom:10px;
 }
 
-#intro .lead2{
+#intro .T2{
 	font-size: 19px;
 	font-weight: 400px;
 	color: #707070;
@@ -588,13 +588,13 @@ width:40px;
 		padding: 0 30px;
 	}
 
-	#intro .lead{
+	#intro h1{
 		font-size: 28px;
 		color: black;
 		line-height: 1.2;
 	}
 	
-	#intro .lead2{
+	#intro .T2{
 		font-size: 16px;
 		line-height: 1.5;
 		margin-top:0px;
