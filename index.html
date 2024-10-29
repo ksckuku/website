@@ -15,6 +15,7 @@
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
 		
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://kit.fontawesome.com/8dd8f3ce18.css" crossorigin="anonymous">
@@ -64,13 +65,34 @@
 
 					    <div class="hstack">
 			
-							<div class="ml-auto order-1 order-md-2">
-								<img src='images/character02.svg' width='480px'>
+							<div class="ml-auto order-1 order-md-2" style="flex-grow: 1;">
+								<div class="position-relative ku-image w-100">
+									<div class="rellax position-absolute w-100 h-100" data-rellax-speed="2">
+										<img src='images/character-layer-01.svg' width='100%'>
+									</div>
+
+									<div class="rellax position-absolute w-100 h-100" data-rellax-speed="0">
+										<img src='images/character-layer-02.svg' width='100%'>
+									</div>
+
+									<div class="rellax position-absolute w-100 h-100" data-rellax-speed="1">
+										<img src='images/character-layer-03.svg' width='100%'>
+									</div>
+
+									<div class="rellax position-absolute w-100 h-100" data-rellax-speed="-2">
+										<img src='images/character-layer-04.svg' width='100%'>
+									</div>
+
+									<div class="rellax w-100 h-100" data-rellax-speed="-2">
+										<img src='images/character-layer-05.svg' width='100%'>
+									</div>
+								</div>
+								
 								</div>
 							
 							<div class='col-md-6 order-2 order-md-1'>
 									
-						      <h1>I'm Ku,<br>a UI/Graphic Designer</h1>
+						      <h1>I'm Ku,<br>a UI/UX Designer</h1>
 						      <p class="T2"> with a passion for innovation and a keen eye for aesthetics</p>
 						      <a class="btn btn-outline-primary btn-lg" href="about.html" role="button"><span>Learn More<i class="bi bi-chevron-right"></i></span></a>
 					  
@@ -101,17 +123,17 @@
 					  	<div class='row'>
 						  	<div class='col-md-4 text-center'>
 							  	<img src="images/skill01.svg">
-							  	<h5>UI Design</h5>
+							  	<h4>UI/UX Design</h4>
 						  	</div>
 
 							  <div class='col-md-4 text-center'>
 								<img src="images/skill02.svg">
-								<h5>Graphic Design</h5>
+								<h4>Graphic Design</h4>
 							</div>
 
 							<div class='col-md-4 text-center'>
 								<img src="images/skill03.svg">
-								<h5>Illustration</h5>
+								<h4>Illustration</h4>
 							</div>
 						  	
 					  	</div>
@@ -136,7 +158,7 @@
 					  
 						  <div class="tabbar">
 							<ul>
-								<li class='tablink1'><a class='tab_btn1 selected' href='UI'>UI Design</a></li>
+								<li class='tablink1'><a class='tab_btn1 selected' href='UI'>UI/UX Design</a></li>
 								
 								<li class='tablink2'><a class='tab_btn2' href='Graphic'>Graphic Design</a></li>
 								
@@ -151,6 +173,27 @@
 						<div class='gcontent UI tablink1 active'>
 
 							<div class='row'>
+
+								<div class='col-md-4 text-left'>
+									<div class='outer'>
+										<a href='ui-00.html'>
+											<div class='upper'>
+											  <div class="image-wrap">
+											  <img src='images/ui/wsa-0.jpg'>
+											  </div>
+											  
+											</div>
+											<div class='lower'>
+												<h3>Revamp of Occupational Safety & Health Mobile Application
+												</h3>
+												<span>HK Labour Department</span>
+							  
+											</div>
+										</a>
+									</div>
+								</div>
+
+
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
 										<a href='ui-01.html'>
@@ -187,29 +230,31 @@
 									</div>
 									</div>
   
-								<div class='col-md-4 text-left'>
-								  <div class='outer'>
-									  <a href='ui-03.html'>
-										  <div class='upper'>
-											<div class="image-wrap">
-											<img src='images/ui/ypark-0.jpg'>
-											</div>
-											
-										  </div>
-										  <div class='lower'>
-											  <h3>Y Park Website</h3>
-											  <span>Environmental Protection Department</span>
-							
-										  </div>
-									  </a>
-								  </div>
-							  </div>
+								
   
 						    </div>
   
   
 							<div class='row'>
 
+								<div class='col-md-4 text-left'>
+									<div class='outer'>
+										<a href='ui-03.html'>
+											<div class='upper'>
+											  <div class="image-wrap">
+											  <img src='images/ui/ypark-0.jpg'>
+											  </div>
+											  
+											</div>
+											<div class='lower'>
+												<h3>Y Park Website</h3>
+												<span>Environmental Protection Department</span>
+							  
+											</div>
+										</a>
+									</div>
+								</div>
+								
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
 										<a href='ui-04.html'>
@@ -246,6 +291,15 @@
 								  </div>
 							    </div>
 
+						    
+  
+							</div>
+
+
+
+  
+							<div class='row'>
+
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
 										<a href='ui-06.html'>
@@ -263,15 +317,7 @@
 										</a>
 									</div>
 								</div>	
-						    
-  
-							</div>
-
-
-
-  
-							<div class='row'>
-
+								
 								<div class='col-md-4 text-left'>
 									<div class='outer'>
 										<a href='ui-07.html'>
@@ -308,24 +354,7 @@
 								</div>
 								
 
-								<div class='col-md-4 text-left'>
-									<div class='outer'>
-										<a href='ui-09.html'>
-											<div class='upper'>
-											  <div class="image-wrap">
-											  <img src='images/ui/hkumma.jpg'>
-											  </div>
-											  
-											</div>
-											<div class='lower'>
-												<h3>Member Mobile App</h3>
-												<span>HKU Medical Alumni Association</s>
-							  
-											</div>
-										</a>
-									</div>
-								  </div>
-	
+								
 							</div>
 
 
@@ -700,6 +729,10 @@
             duration: 1200
             });
 		  </script>
+
+        <script>
+	        var rellax = new Rellax('.rellax');
+        </script>
 
 
 
