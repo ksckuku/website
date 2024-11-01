@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#847264;}
 	.st1{fill:#6D5C51;}
 	.st2{fill:#F0D4C8;}
-	.st3{fill:#E19495;}
+	.st3{fill:#F28F8B;}
 	.st4{fill:#D1B6A3;}
 	.st5{fill:#B3B3B3;}
 	.st6{fill:#707070;}
 	.st7{opacity:0.25;fill:#020202;enable-background:new    ;}
-	.st8{fill:#C67C7F;}
+	.st8{fill:#DB7D7D;}
 	.st9{fill:#3D3D3D;}
-	.st10{fill:none;}
-	.st11{fill:#F0D4C8;stroke:#000000;stroke-width:2.2374;stroke-miterlimit:10;}
-	.st12{fill:#565656;stroke:#3D3D3D;stroke-width:3.1458;stroke-miterlimit:10;}
-	.st13{fill:#F0D4C8;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st10{fill:#F0D4C8;stroke:#000000;stroke-width:2.2374;stroke-miterlimit:10;}
+	.st11{fill:#565656;stroke:#3D3D3D;stroke-width:3.1458;stroke-miterlimit:10;}
 </style>
 <g>
 	<path class="st0" d="M416.5,79.7c0,0-18.7-37-66.7-36.6c-36.1,0.3-68.5,18.1-89,47.4c-19.6,28-21.2,42.7-33.1,98.6
@@ -265,8 +263,8 @@
 			c1.1,0.4,2.2,0.7,3.3,0.9c2.3,0.4,4.6,0.5,6.8,0.1c2.3-0.3,4.4-1,6.5-2.1c2-1,3.9-2.4,5.7-4l1.7-1.6l1,2c5.1,9.8,9.6,19.8,13.7,30
 			s7.8,20.5,10.9,31.1s5.6,21.3,6.8,32.3c0.6,5.5,0.9,11,0.7,16.5C423.8,394.2,423.1,399.7,421.5,404.9z"/>
 	</g>
-	<path class="st11" d="M273.1,431.9c0,0,2,9.9,8.3,11.5c11,2.6,5.7-15-4.3-17.4c-6.3-1.5-20.4-5.3-27.3,2.8c0,0-10,9-7.4,17.6"/>
-	<path class="st12" d="M279.1,462.2l-49-75.3c0,0,2-10.3,11.1-6.9l49.6,75.5l2.2,15.8L279.1,462.2z"/>
+	<path class="st10" d="M273.1,431.9c0,0,2,9.9,8.3,11.5c11,2.6,5.7-15-4.3-17.4c-6.3-1.5-20.4-5.3-27.3,2.8c0,0-10,9-7.4,17.6"/>
+	<path class="st11" d="M279.1,462.2l-49-75.3c0,0,2-10.3,11.1-6.9l49.6,75.5l2.2,15.8L279.1,462.2z"/>
 	<path class="st2" d="M256.5,431.3c2.3,3.8,0.1,6.8,14.7,13c9.5,4,17.7-3.3,16.2,6.6c-0.8,4.9-8.9,5.2-8.9,5.2s-7.6,9.4-12.2,9.7
 		c-4.9,0.3-15.2,1.4-19.4-5.6c-5.4-9-5.5-32.3,6.9-33.9"/>
 	<g>
@@ -335,7 +333,7 @@
 				c1.5,1,2.8,2.2,3.8,3.7s1.6,3.2,1.7,4.9c-1.4-3.1-3.9-5.2-6.6-6.6c-2.8-1.4-5.9-2.2-9-2.8c-3.2-0.6-6.4-0.9-9.7-1.2L336.1,168.2z
 				"/>
 		</g>
-		<ellipse transform="matrix(0.1412 -0.99 0.99 0.1412 110.168 507.8686)" class="st9" cx="347.8" cy="190.4" rx="11" ry="6.5"/>
+		<ellipse transform="matrix(0.1412 -0.99 0.99 0.1412 110.1454 507.8319)" class="st9" cx="347.8" cy="190.4" rx="11" ry="6.5"/>
 	</g>
 	<g>
 		<path class="st9" d="M281,213.4c0.7,0.8,1.5,1.5,2.3,2.1s1.7,1.2,2.6,1.7c1.8,1.1,3.6,1.9,5.5,2.8c1.9,0.8,3.8,1.5,5.8,2.2
